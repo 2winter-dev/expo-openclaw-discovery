@@ -5,9 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-lightgrey.svg)](https://github.com/2winter-dev/expo-openclaw-discovery)
 
-OpenClaw Gateway Bonjour/mDNS discovery for Expo - Discover OpenClaw gateways on local network.
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=2winter-dev/expo-openclaw-discovery&type=Date)](https://star-history.com/#2winter-dev/expo-openclaw-discovery&Date)
+OpenClaw Gateway Bonjour/mDNS discovery for Expo - Discover OpenClaw gateways on local network.
 
 [⭐ Star us on GitHub](https://github.com/2winter-dev/expo-openclaw-discovery)
 
@@ -273,6 +273,16 @@ When an OpenClaw gateway is discovered, you'll receive:
 - Ensure you have the necessary permissions
 - On iOS, ensure Local Network Usage is enabled in Info.plist
 - On Android, ensure you have the necessary permissions in AndroidManifest.xml
+
+## Star History
+
+<a href="https://www.star-history.com/?type=date&repos=2winter-dev%2Fexpo-openclaw-discovery">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=2winter-dev/expo-openclaw-discovery&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=2winter-dev/expo-openclaw-discovery&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=2winter-dev/expo-openclaw-discovery&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Contributing
 

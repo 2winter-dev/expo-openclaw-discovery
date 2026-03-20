@@ -5,9 +5,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20Android-lightgrey.svg)](https://github.com/2winter-dev/expo-openclaw-discovery)
 
-OpenClaw 网关的 Bonjour/mDNS 服务发现模块（适用于 Expo）- 在本地网络中发现 OpenClaw 网关。
+[English](README.md) | [简体中文](README.zh-CN.md)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=2winter-dev/expo-openclaw-discovery&type=Date)](https://star-history.com/#2winter-dev/expo-openclaw-discovery&Date)
+OpenClaw 网关的 Bonjour/mDNS 服务发现模块（适用于 Expo）- 在本地网络中发现 OpenClaw 网关。
 
 [⭐ 在 GitHub 上给我们星标](https://github.com/2winter-dev/expo-openclaw-discovery)
 
@@ -273,6 +273,16 @@ export type OpenClawDiscoveredService = {
 - 确保您具有必要的权限
 - 在 iOS 上，确保在 Info.plist 中启用了本地网络使用
 - 在 Android 上，确保您在 AndroidManifest.xml 中具有必要的权限
+
+## Star History
+
+<a href="https://www.star-history.com/?type=date&repos=2winter-dev%2Fexpo-openclaw-discovery">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/image?repos=2winter-dev/expo-openclaw-discovery&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/image?repos=2winter-dev/expo-openclaw-discovery&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/image?repos=2winter-dev/expo-openclaw-discovery&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## 贡献
 
