@@ -1,0 +1,10 @@
+{
+  "name": "OpenClawDiscovery",
+  "platforms": ["ios", "android"],
+  "ios": {
+    "modules": ["OpenClawDiscoveryModule"]
+  },
+  "android": {
+    "modules": ["com.openclaw.discovery.OpenClawDiscoveryModule"]
+  }
+}
