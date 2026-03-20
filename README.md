@@ -9,6 +9,8 @@
 
 OpenClaw Gateway Bonjour/mDNS discovery for Expo - Discover OpenClaw gateways on local network.
 
+> **Note:** While this module is primarily built for discovering [OpenClaw](https://github.com/2winter-dev/openclaw) gateways, it can also be used to discover **any mDNS/Bonjour services** on your local network (e.g., `_http._tcp.`, `_printer._tcp.`, custom service types, etc.).
+
 [⭐ Star us on GitHub](https://github.com/2winter-dev/expo-openclaw-discovery)
 
 ## Features

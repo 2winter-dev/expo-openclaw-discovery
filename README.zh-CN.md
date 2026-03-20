@@ -9,6 +9,8 @@
 
 OpenClaw 网关的 Bonjour/mDNS 服务发现模块（适用于 Expo）- 在本地网络中发现 OpenClaw 网关。
 
+> **注意：** 虽然本模块主要为发现 [OpenClaw](https://github.com/2winter-dev/openclaw) 网关而构建，但它也可以用于发现**本地网络上的任何 mDNS/Bonjour 服务**（例如 `_http._tcp.`、`_printer._tcp.`、自定义服务类型等）。
+
 [⭐ 在 GitHub 上给我们星标](https://github.com/2winter-dev/expo-openclaw-discovery)
 
 ## 特性
