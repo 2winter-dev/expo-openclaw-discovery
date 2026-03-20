@@ -27,6 +27,15 @@ export type OpenClawDiscoveredService = {
   txt?: Record<string, string>;
 };
 
+export type OpenClawServiceLostEvent = {
+  name: string;
+  type?: string;
+};
+
+export type OpenClawErrorEvent = {
+  message: string;
+};
+
 export function isOpenClawDiscoveryAvailable() {
   return Boolean(nativeModule);
 }
@@ -41,6 +50,18 @@ export function stopOpenClawDiscovery() {
   nativeModule.stop();
 }
 
+export function addOpenClawDiscoveryListener(
+  eventName: 'onService',
+  listener: (payload: OpenClawDiscoveredService) => void
+): { remove: () => void };
+export function addOpenClawDiscoveryListener(
+  eventName: 'onServiceLost',
+  listener: (payload: OpenClawServiceLostEvent) => void
+): { remove: () => void };
+export function addOpenClawDiscoveryListener(
+  eventName: 'onError',
+  listener: (payload: OpenClawErrorEvent) => void
+): { remove: () => void };
 export function addOpenClawDiscoveryListener(
   eventName: 'onService' | 'onServiceLost' | 'onError',
   listener: (payload: any) => void
